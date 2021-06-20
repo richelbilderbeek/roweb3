@@ -18,16 +18,16 @@ Travis is now providing support for [multiple operating systems](https://docs.tr
 
 Cross system testing is mainly useful to check packages with compiled code (i.e. C or C++) against various combinations of compiler versions, external libraries or system services. However any R package can easily be configured to take advantage of these features immediately. It is free and easy to setup!
 
-[![Travis Screenshot](/assets/blog-images/travis.png)](https://travis-ci.org/rstats-db/RMySQL)
+[![Travis Screenshot](/assets/blog-images/travis.png)](https://travis-ci.com/rstats-db/RMySQL)
 
 The R travis options are pretty well [documented](https://docs.travis-ci.com/user/languages/r). The quickest way to get started is by borrowing a `.travis.yml` configuration from another package. Below a few example packages with a multi-OS build matrix which illustrate various options:
 
- - [jqr](https://travis-ci.org/ropensci/jqr): basic example with C code: [.travis.yml](https://github.com/ropensci/jqr/blob/master/.travis.yml)
- - [jsonlite](https://travis-ci.org/jeroen/jsonlite): also requires a custom Latex package (preprint): [.travis.yml](https://github.com/jeroen/jsonlite/blob/master/.travis.yml)
- - [pdftools](https://travis-ci.org/ropensci/pdftools): requires external library (libpoppler): [.travis.yml](https://github.com/ropensci/pdftools/blob/master/.travis.yml)
- - [curl](https://travis-ci.org/jeroen/curl): external library (libcurl) and custom options: [.travis.yml](https://github.com/jeroen/curl/blob/master/.travis.yml)
- - [sodium](https://travis-ci.org/jeroen/sodium): depends on an external library from a PPA. [.travis.yml](https://github.com/jeroen/sodium/blob/master/.travis.yml)
- - [RMySQL](https://travis-ci.org/rstats-db/RMySQL): package with unit-tests that require both mysql server and client library. Also checks alternative configurations with mariadb: [.travis.yml](https://github.com/rstats-db/RMySQL/blob/master/.travis.yml)
+ - [jqr](https://travis-ci.com/ropensci/jqr): basic example with C code: [.travis.yml](https://github.com/ropensci/jqr/blob/master/.travis.yml)
+ - [jsonlite](https://travis-ci.com/jeroen/jsonlite): also requires a custom Latex package (preprint): [.travis.yml](https://github.com/jeroen/jsonlite/blob/master/.travis.yml)
+ - [pdftools](https://travis-ci.com/ropensci/pdftools): requires external library (libpoppler): [.travis.yml](https://github.com/ropensci/pdftools/blob/master/.travis.yml)
+ - [curl](https://travis-ci.com/jeroen/curl): external library (libcurl) and custom options: [.travis.yml](https://github.com/jeroen/curl/blob/master/.travis.yml)
+ - [sodium](https://travis-ci.com/jeroen/sodium): depends on an external library from a PPA. [.travis.yml](https://github.com/jeroen/sodium/blob/master/.travis.yml)
+ - [RMySQL](https://travis-ci.com/rstats-db/RMySQL): package with unit-tests that require both mysql server and client library. Also checks alternative configurations with mariadb: [.travis.yml](https://github.com/rstats-db/RMySQL/blob/master/.travis.yml)
 
 For extra credit also check out the [feather](https://github.com/wesm/feather/blob/master/.travis.yml) package which uses a single platform but has a very cool build matrix targeting multiple compilers with both the python and R interfaces.
 

@@ -52,7 +52,7 @@ dev branch of `codemetar`):
 -   conversion to XML using `commonmark` (see [my recent tech
     note](/technotes/2018/09/05/commonmark/)) which works well for the
     Markdown badges e.g.
-    `[![Travis-CI Build Status](https://travis-ci.org/ropensci/codemetar.svg?branch=master)](https://travis-ci.org/ropensci/codemetar)`.
+    `[![Travis-CI Build Status](https://travis-ci.com/ropensci/codemetar.svg?branch=master)](https://travis-ci.com/ropensci/codemetar)`.
 
 -   extraction and parsing on the first HTML table there is if there’s
     any, which is necessary for [badges in table, which we’ve been
@@ -78,7 +78,7 @@ codemetar::extract_badges("https://raw.githubusercontent.com/ropensci/drake/mast
 | AppVeyor                                                                                                   | <https://ci.appveyor.com/project/ropensci/drake>         | <https://ci.appveyor.com/api/projects/status/4ypc9xnmqt70j94e?svg=true&branch=master> |
 | rOpenSci                                                                                                   | <https://github.com/ropensci/software-review/issues/156>      | <https://badges.ropensci.org/156_status.svg>                                          |
 | minimal R version                                                                                          | <https://cran.r-project.org/>                            | <https://img.shields.io/badge/R%3E%3D-3.3.0-blue.svg>                                 |
-| Travis                                                                                                     | <https://travis-ci.org/ropensci/drake>                   | <https://travis-ci.org/ropensci/drake.svg?branch=master>                              |
+| Travis                                                                                                     | <https://travis-ci.com/ropensci/drake>                   | <https://travis-ci.com/ropensci/drake.svg?branch=master>                              |
 | CRAN                                                                                                       | <https://cran.r-project.org/package=drake>                | <https://www.r-pkg.org/badges/version/drake>                                           |
 | downloads                                                                                                  | <https://cran.rstudio.com/package=drake>                  | <https://cranlogs.r-pkg.org/badges/drake>                                              |
 | Codecov                                                                                                    | <https://codecov.io/github/ropensci/drake?branch=master> | <https://codecov.io/github/ropensci/drake/coverage.svg?branch=master>                 |

@@ -50,7 +50,7 @@ All of our scripts were under version control using [git](https://git-scm.com) f
 
 **Automated checking that modifications don't break things**
 
-We used the "[continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)" environment [Travis CI](https://travis-ci.org) to guard against changes in the analysis causing it to fail.  Every time we made a change, this system downloads the source code, all relevant data and runs the analysis, sending us an email if anything failed.  It even [uploads the compiled versions of the analysis and manuscript](https://richfitz.github.io/wood) each time it runs.
+We used the "[continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)" environment [Travis CI](https://travis-ci.com) to guard against changes in the analysis causing it to fail.  Every time we made a change, this system downloads the source code, all relevant data and runs the analysis, sending us an email if anything failed.  It even [uploads the compiled versions of the analysis and manuscript](https://richfitz.github.io/wood) each time it runs.
 
 **Documenting dependencies**
 
